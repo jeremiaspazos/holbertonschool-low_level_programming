@@ -1,15 +1,22 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
+ * print_alphabet - prints the a-z in lowercase followed by a new line
  *
  * Return: Always 0.
  */
 
 void print_alphabet(void)
 {
-char al
-for(al='a';al <'z';al++)
-_putchar(al);
+char ch;
+
+ch = 'a';
+
+while (ch <= 'z')
+{
+_putchar(ch);
+ch++;
+}
+
 _putchar('\n');
 }
