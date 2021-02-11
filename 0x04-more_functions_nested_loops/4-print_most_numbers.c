@@ -9,17 +9,12 @@
  */
 
 void print_most_numbers(void);
-
-int numero
-for (numero = '0'; numero < '10'; numero++)
 {
-if (numero == '2' || numero '4')
+  int numero;
+for (numero = 0; numero < 10; numero++)
 {
-continue;
-}
-else
-{
+if (numero != 2 || numero != 4)
 _putchar ('0' + numero);
-}
-}
 _putchar('\n');
+}
+}
