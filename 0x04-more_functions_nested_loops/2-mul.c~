@@ -1,0 +1,13 @@
+#include "holberton.h"
+
+/**
+ * mul - entry point
+ * @a: number , @b: number
+ * Description: Multiplies a and b
+ * return: a*b
+ */
+
+int mul(int a, int b)
+{
+return (a * b);
+}
