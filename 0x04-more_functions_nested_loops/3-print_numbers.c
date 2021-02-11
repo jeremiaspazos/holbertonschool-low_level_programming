@@ -1,18 +1,18 @@
 #include "holberton.h"
-#include <stdio.h>
+
 
 /**
  * print_numbers - Entry point
  *
- * Description: prints from 0 to 9 with a line
+ * Description: Sasdasdsa
  * Return: Always 0 (Success)
  */
 
 void print_numbers(void)
 {
-int a;
+int numero;
 
-for (a = 0; a < 10; a++)
-_putchar (a);
-_putchar ('\n');
+for (numero = 0; numero <= 9; numero++)
+_putchar('0' + numero);
+_putchar('\n');
 }
