@@ -11,15 +11,15 @@
 void print_most_numbers(void);
 
 int numero
-for (numero = 0; numero < 10; numero++)
+for (numero = '0'; numero < '10'; numero++)
 {
-if(numero == '2' || numero '4')
+if (numero == '2' || numero '4')
 {
 continue;
 }
-else;
+else
 {
-  _putchar ('0' + numero);
+_putchar ('0' + numero);
 }
 }
 _putchar('\n');
